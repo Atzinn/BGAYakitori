@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BGA Yakitori</title>
+    <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ 	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/skeleton.css">
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/bgayakitori.png" class="logo">       
+        <h1>BGA Yakitori</h1>
+    </header>
+    
+    <div class="rows">
+        <div align="center">
+            <form action="login.php" method="GET" name="form">
+                <legend>Nombre de usuario: </legend><input type="text" name="user_name"><br>
+                <legend>Contraseña: </legend><input type="password" name="pass"><br>
+                <input name="formulario" type="hidden" value="ingresar">
+                <input type="submit" class="button-primary" id="log" name="ingre" value='Ingresar'>
+                 <a href="registrar.php" class="button" >Registrar</a>
+            </form>
+           
+        </div>
+    </div>
+</body>
+</html>

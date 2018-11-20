@@ -1,0 +1,48 @@
+.header{
+    height: 120px;
+    background-color: #3FE8D2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h1{
+    height: 60px;
+    width:600px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.logo{
+    height: 120px;
+    width: 220px;
+}
+
+.menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu button{
+    margin-top:5px;
+}
+
+#reg-form
+{
+ margin:100px auto;
+ padding:25px;
+ border:solid #cfcfcf 1px;
+ width:50%;
+ background:#f9f9f9;
+}
+
+fieldset
+{
+ padding:5px;
+ width:60%;
+ margin:0 auto;
+ border:0;
+}
+
